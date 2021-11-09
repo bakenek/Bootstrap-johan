@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Pagina web usando Bootstrap</title>
+    
+    <!--sección de metadatos-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--necesario para el responsive de la pagina-->
+    
+    
+    <!-- enlazando hoja de estilos de Bootstrap en la nube -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- enlazando libreria de jQuery en la nube -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- enlazando libreria de Bootsatrap en la nube (JavaScript) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+    <!--En el caso de usar los archivos localmente-->	
+	<!--<script type="text/javascript" src="js/jquery.min.js"></script>--> 
+</head>
+
+<body>
+
+<div class="container-fluid">
+  <h1>Bootstrap</h1>
+  <p>Texto generico</p>
+   <div class="well">Normal Well</div>
+  
+</div>
+
+<div class="jumbotron">
+<div class="container">
+  <h2>Image Gallery</h2>
+  <p>The .thumbnail class can be used to display an image gallery.</p>
+  <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+  <p>Click on the images to enlarge them.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <!--<a href="/w3images/lights.jpg" target="_blank">-->
+          <img src="imgs/frutas.jpg" alt="Frutas" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        <!--</a>-->
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <!--<a href="/w3images/nature.jpg" target="_blank">-->
+          <img src="imgs/verduras.jpg" alt="Verduras" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        <!--</a>-->
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <!--<a href="/w3images/fjords.jpg" target="_blank">-->
+          <img src="imgs/vegetales1.jpg" alt="Vegetales" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        <!--</a>-->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
